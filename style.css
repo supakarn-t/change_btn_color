@@ -1,0 +1,86 @@
+/* Import font here */
+
+/* Reset some default browser styles */
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	font-family: "Arial", sans-serif;
+	line-height: 1.6;
+	font-size: 16px;
+}
+
+/* Main login form container */
+.login-form {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	min-height: 100vh;
+	background-color: #f0f0f0;
+	/* background: linear-gradient(to bottom, #48c6ef, #6f86d6); */
+	/* background-image: url("<add image URL here.jpg>"); */
+}
+
+/* Login form container */
+.form {
+	background-color: #fff;
+
+	/* // Semi-transparent white background // */
+	/* background-color: rgba(255, 255, 255, 0.2); */
+	/* // Glassmorphism effect // */
+	/* backdrop-filter: blur(10px); */
+
+	padding: 2rem;
+	border-radius: 8px;
+	box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+	max-width: 400px;
+	width: 100%;
+}
+
+/* Form heading */
+.form__heading {
+	font-size: 1.5rem;
+	text-align: center;
+	margin-bottom: 1rem;
+}
+
+/* Form input and label styles */
+.form__group {
+	margin-bottom: 1.5rem;
+}
+
+.form__label {
+	display: block;
+	font-size: 1rem;
+	margin-bottom: 0.5rem;
+}
+
+.form__input {
+	width: 100%;
+	padding: 0.75rem;
+	font-size: 1rem;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	background-color: transparent;
+}
+
+/* Form submit button */
+.form__submit {
+	display: block;
+	width: 100%;
+	padding: 0.75rem;
+	font-size: 1rem;
+	color: #fff;
+	background-color: #007bff;
+	border: none;
+	border-radius: 4px;
+	cursor: pointer;
+	transition: background-color 0.2s ease;
+}
+
+.form__submit:hover {
+	background-color: #0056b3;
+}
